@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quizz</title>
+	<link rel="stylesheet" href="css/style.css">
+<!-- 	<link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'> -->
+<link href='https://fonts.googleapis.com/css?family=Fondamento:400italic,400' rel='stylesheet' type='text/css'>
+<!-- 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon"  href="images/cart-favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5eSV5w1iOAG_gTC1ifUW84-hH99AlF48"></script>
+<!-- 
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	
+ -->	
+	
+</head>
+<body>
+	<section class = "header">+ New Game</section>
+	<section class = "quizz">
+		
+		<section class = "title">
+			<h1>World Capitals Quizz</h1>
+		</section>
+
+		<section class = "introduction">
+			<div class = "intro-text">Ok, ready for some fun? We'll test your world knowledge by asking you 10 world capitals.</div>
+			<div class = "myButton"><button>Start Quizz</button></div>
+		</section>
+
+		<section class = "results">
+			<div class = "results-number">You got <span>3</span> out of 10 answers correct.</div>
+			<div class = "congrats-text">Awesome. You know your stuff</div>
+		</section>
+
+		<section class = "game">
+			<div class="question"><span id="qnum">1</span>. What is the capital of <span id="countryquestion">Country</span>?</div>
+				<ul class = "list">			
+					<li class = "items-list" id="ans0">Ans0</li>
+					<li class = "items-list" id="ans1">Ans1</li>
+					<li class = "items-list" id="ans2">Ans2</li>
+					<li class = "items-list" id="ans3">Ans3</li>
+				</ul>
+		</section>
+		
+		<section class = "progress-section">
+			<div class="progress">Quizz Progress</div>
+				<ul class = "progress-list">
+					<li class = "items-progress-list"><i id = "q1" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q2" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q3" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q4" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q5" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q6" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q7" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q8" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q9" class="fa fa-square"></i></li>
+					<li class = "items-progress-list"><i id = "q10" class="fa fa-square"></i></li>
+		</section>
+
+		<section class = "hint-map">
+			<div id="map-canvas"></div>
+		</section>
+
+		<section class = "feedback">
+		<div>Remember for next time:</div>
+			<ul class = "feedback-list">
+			</ul>
+		</section>
+
+
+
+	</section>
+
+</body>
+</html>
+
+
+
+
+
