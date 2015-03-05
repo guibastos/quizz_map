@@ -9,7 +9,7 @@ $(".myButton").on('click',function() {
 	$(".game").show();
 	$(".introduction").hide();
 	$(".hint-map").show();
-
+	Questions(pagenum);
 });
 
 	var question_answers = [
@@ -316,7 +316,7 @@ $(".myButton").on('click',function() {
 			google.maps.event.addDomListener(window, 'load', initialize(question_answers2[value].Coord[0],question_answers2[value].Coord[1]));
 		};
 
-	Questions(pagenum);
+	//Questions(pagenum);
 	var WrongAnswers = [];
 	var Progress = function (arg, x) {
 		if (arg) {
